@@ -1,0 +1,17 @@
+def caesar_cipher(string, offset)
+alphabet = "abcdefghijklmnopqrstuvwxyz".split("");
+ciphered_string = []
+string.each_char {|char|
+  #TODO: check if char is alphabet and check case
+  if char.in?(alphabet) {
+
+  }
+  #TODO: alphabet wraparound
+
+}
+
+puts ciphered_string.join("")
+end
+
+
+caesar_cipher("abc",1)
